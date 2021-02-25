@@ -155,10 +155,9 @@ class Garden {
 function applesInfo(){
 
 }
-//var treeNumb = Math.floor(Math.random() * 100); 
-//var appleNumb = Math.floor(Math.random() * 100); 
-var treeNumb = 2;
-var appleNumb = 2;
+let treeNumb = Math.floor(Math.random() * 100); 
+let appleNumb = Math.floor(Math.random() * 100); 
+
 let garden = new Garden(0,treeNumb,appleNumb);
 const clockButt = document.querySelector('#clockButton');
 const applesButt =document.querySelector('#applesButt');
